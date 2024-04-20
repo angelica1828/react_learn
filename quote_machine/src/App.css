@@ -1,0 +1,52 @@
+:root {
+  --main-color-1: #7DDF64; /* Define your first main color */
+  --main-color-2: #C0DF85; /* Define your second main color */
+}
+
+body{
+  background-color: var(--main-color-1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#quote-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:10px;
+  background-color: #fff;
+  padding:30px;
+  width:50vh;
+  margin: 45% auto;
+  box-shadow: 10px 10px 0px 0px #ddd;
+  border-radius: 3px;
+  max-height:250px;
+}
+
+#text{
+  text-align: justify;
+  font-size: 23px;
+}
+
+#author{
+  text-align: right;
+  font-size:18px;
+}
+
+.clickables{
+  display:flex;
+  justify-content: space-between;
+}
+
+#new-quote, a{
+  border:none;
+  padding:10px 8px;
+  color:#fff;
+}
+
+#new-quote:hover{
+  background-color: var(--main-color-1);
+}
+
+a:hover{
+  background-color: var(--main-color-1);
+}
